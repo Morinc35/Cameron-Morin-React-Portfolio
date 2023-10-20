@@ -1,8 +1,9 @@
 import NavBar from './components/NavBar';
-import About from './components/About';
-import Contact from './components/Contact';
-import Projects from './components/Projects';
-import Resume from './components/Resume';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
+import Footer from './components/Footer';
 import './App.css'
 
 
@@ -15,6 +16,7 @@ export default function App(){
         <Projects />
         <Resume />
         <Contact />
+        <Footer />
       </main>
     </>
   );
