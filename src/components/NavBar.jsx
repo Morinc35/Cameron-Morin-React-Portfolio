@@ -14,22 +14,20 @@ export default function NavBar() {
      <ul style={{
       fontFamily: "monospace",
       fontSize: '20px',
-      paddingRight: '20px',
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'flex-end',
      }}>
       <li className="navbar-item">
      <a className="about-me has-text-black" href={About}>About Me</a>
      </li> 
      <li className="navbar-item">
-     <a className="about-me has-text-black">Projects</a>
+     <a className="projects has-text-black">Projects</a>
      </li> 
      <li className="navbar-item">
-     <a className="about-me has-text-black">Resume</a>
+     <a className="resume has-text-black">Resume</a>
      </li> 
      <li className="navbar-item">
-     <a className="about-me has-text-black">Contact Me</a>
+     <a className="contact-me has-text-black">Contact Me</a>
      </li> 
      </ul>
     </nav>
