@@ -5,17 +5,22 @@ export default function NavBar() {
    return(
  <header>
     <nav className='navbar' aria-label="main navigation">
-     <>
-     <a id="nav-html" className="navbar-item "><img src="src\assets\icons8-html-50.png" alt="HTML Logo"></img></a>
-     <a id="nav-css" className="navbar-item"><img src="src\assets\icons8-css-50.png" alt="CSS Logo"></img></a>
-     <a id="nav-js" className="navbar-item"><img src="src\assets\icons8-javascript-50.png" alt="Javascript Logo"></img></a>
-     </>
+     <ul className='navbar-start'
+     style={{
+      display: 'flex',
+      marginTop: '.68em',
+     }}>
+     <a id="nav-html" className="image"><img src="src\assets\icons8-html-50.png" alt="HTML Logo"></img></a>
+     <a id="nav-css" className="image"><img src="src\assets\icons8-css-50.png" alt="CSS Logo"></img></a>
+     <a id="nav-js" className="image"><img src="src\assets\icons8-javascript-50.png" alt="Javascript Logo"></img></a>
+     </ul>
 
-     <ul style={{
+     <ul className= 'navbar-end' style={{
       fontFamily: "monospace",
       fontSize: '20px',
       display: 'flex',
-      flexDirection: 'row',
+      margin: '.75rem',
+      
      }}>
       <li className="navbar-item">
      <a className="about-me has-text-black" href={About}>About Me</a>
