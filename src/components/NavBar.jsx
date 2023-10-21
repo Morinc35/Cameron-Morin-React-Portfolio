@@ -1,18 +1,19 @@
-import About from '../pages/About';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function NavBar() {
+const currentPage = useLocation().pathname;
 
-   return(
+return(
  <header>
-    <nav className='navbar' aria-label="main navigation">
+    <nav className='navbar ' aria-label="main navigation">
      <ul className='navbar-start'
      style={{
       display: 'flex',
       marginTop: '.68em',
      }}>
-     <a id="nav-html" className="image"><img src="src\assets\icons8-html-50.png" alt="HTML Logo"></img></a>
-     <a id="nav-css" className="image"><img src="src\assets\icons8-css-50.png" alt="CSS Logo"></img></a>
-     <a id="nav-js" className="image"><img src="src\assets\icons8-javascript-50.png" alt="Javascript Logo"></img></a>
+     <a className="image"><img src="src\assets\icons8-html-50.png" alt="HTML Logo"></img></a>
+     <a className="image"><img src="src\assets\icons8-css-50.png" alt="CSS Logo"></img></a>
+     <a className="image"><img src="src\assets\icons8-javascript-50.png" alt="Javascript Logo"></img></a>
      </ul>
 
      <ul className= 'navbar-end' style={{
@@ -23,16 +24,16 @@ export default function NavBar() {
       
      }}>
       <li className="navbar-item">
-     <a className="about-me has-text-black" href={About}>About Me</a>
+     <Link style={{color: 'black'}} to='/About' className={currentPage === '/About'}>About Me</Link>
      </li> 
      <li className="navbar-item">
-     <a className="projects has-text-black">Projects</a>
+     <Link style={{color: 'black'}} to='/Projects' className={currentPage === '/Projects'}>Projects</Link>
      </li> 
      <li className="navbar-item">
-     <a className="resume has-text-black">Resume</a>
+     <Link style={{color: 'black'}} to='/Resume' className={currentPage === '/Resume'}>Resume</Link>
      </li> 
      <li className="navbar-item">
-     <a className="contact-me has-text-black">Contact Me</a>
+     <Link style={{color: 'black'}} to='/Contact' className={currentPage === '/Contact'}>Contact Me</Link>
      </li> 
      </ul>
     </nav>
