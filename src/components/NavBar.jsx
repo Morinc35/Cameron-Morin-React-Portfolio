@@ -9,7 +9,7 @@ return(
      <ul className='navbar-start'
      style={{
       display: 'flex',
-      marginTop: '.68em',
+      marginTop: '.68em'
      }}>
      <a className="image"><img src="src\assets\icons8-html-50.png" alt="HTML Logo"></img></a>
      <a className="image"><img src="src\assets\icons8-css-50.png" alt="CSS Logo"></img></a>
@@ -20,7 +20,7 @@ return(
       fontFamily: "monospace",
       fontSize: '20px',
       display: 'flex',
-      margin: '.75rem',
+      margin: '.75rem'
       
      }}>
       <li className="navbar-item">

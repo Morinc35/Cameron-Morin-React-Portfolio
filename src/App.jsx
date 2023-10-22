@@ -11,15 +11,14 @@ import './App.css'
 export default function App(){
   return (
     <>
-    
+    <NavBar />
       <main>
-        <NavBar />
         <About />
         <Projects />
         <Resume />
         <Contact />
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }
