@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/Resume',
-        element: <Resume/>
+        element: <Resume href='https://docs.google.com/document/d/1trwySpB4SZ-oCpn0cX4sTsZ2Fgb8CDG5AGnaDo6Y-uM/edit?usp=sharing'/>
       },
     ],
   },

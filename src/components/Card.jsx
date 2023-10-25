@@ -1,13 +1,14 @@
-function Card(props) {
-    const {image, title, description} = props;
+function Card({image, title, description, link}) {
+
     return(
-        <div className="card">
-        <div className="card-image"><figure className="image is-128x128"><img src={image}></img></figure></div>
-        <div className='card-content'><h1>{title}</h1></div>
-        <div className="media-content"><h2>{description}</h2></div>
-        </div>
-        
-        
+        <div className="card column is-one-quarter mt-5" style={{
+        borderRadius: '.51rem',
+        }}>
+        <div className="card-image"><figure className="image"><img src={image}></img></figure></div>
+        <div className='card-content'><h1 className="title is-4">{title}</h1></div>
+        <div className="media-content"><h2 className="subtitle is-5">{description}</h2></div>
+        <div><a href={link}><button className="button is-black is-link">Visit this project</button></a></div>
+        </div>     
     )
     
     }

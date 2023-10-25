@@ -1,6 +1,6 @@
 export default function Footer() {
 return(
-    <footer style={{ backgroundColor: '#6b6a6a',  position: 'absolute', bottom: '0', left: '0', right: '0', display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: 'monospace', textAlign: 'center' }}>
+    <footer style={{ backgroundColor: '#506C64',  position: 'fixed', bottom: '0', left: '0', right: '0', display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: 'monospace', textAlign: 'center' }}>
     <div className="footer-image is-flex">
       <a className="image is-48x48 mx-3" href='https://github.com/Morinc35'><img src="src/assets/icons8-github-96.png" alt="GitHub" /></a>
       <a className="image is-48x48 mx-3" href='https://www.linkedin.com/in/cameron-morin-58aba01a5/'><img src="src/assets/icons8-linkedin-96.png" alt="LinkedIn" /></a>

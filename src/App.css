@@ -1,7 +1,10 @@
 #root {
-  background-color: #6b6a6a;
+  background-color: #506C64;
 }
 .navbar {
 background-color: #adb2b0;
 border: #282828;
+}
+.card {
+ box-shadow: #282828;
 }

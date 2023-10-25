@@ -8,13 +8,13 @@ import './App.css'
 
 export default function App(){
   return (
-    <>
+    <div style={{position:'relative'}}>
     <NavBar />
       <main>
       <Outlet/>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
