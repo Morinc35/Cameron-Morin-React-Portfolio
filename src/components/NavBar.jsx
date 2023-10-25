@@ -24,7 +24,7 @@ return(
       
      }}>
       <li className="navbar-item">
-     <Link style={{color: 'black'}} to='/About' className={currentPage === '/About'}>About Me</Link>
+     <Link style={{color: 'black'}} to='/' className={currentPage === '/About'}>About Me</Link>
      </li> 
      <li className="navbar-item">
      <Link style={{color: 'black'}} to='/Projects' className={currentPage === '/Projects'}>Projects</Link>
