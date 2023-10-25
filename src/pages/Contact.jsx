@@ -2,7 +2,7 @@
 
 export default function Contact() {
     return(
-<main>
+{/* <main>
     <div className="field is-grouped">
         <label className="label">Name</label>
     <div className="control">
@@ -14,5 +14,5 @@ export default function Contact() {
         <input className="input" type='text' placeholder="email"></input>
         </div>
     
-</main>
+</main> */}
 )}
