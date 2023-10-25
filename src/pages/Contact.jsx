@@ -1,9 +1,9 @@
-import { useState } from "react";
+
 
 export default function Contact() {
     return(
 <main>
-    <div className="field is-grouped" onSubmit={}>
+    <div className="field is-grouped">
         <label className="label">Name</label>
     <div className="control">
         <textarea className="input" type='text' placeholder="Name"></textarea>

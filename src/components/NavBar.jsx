@@ -30,7 +30,7 @@ return(
      <Link style={{color: 'black'}} to='/Projects' className={currentPage === '/Projects'}>Projects</Link>
      </li> 
      <li className="navbar-item">
-     <Link style={{color: 'black'}} to='/Resume' className={currentPage === '/Resume'}>Resume</Link>
+     <Link style={{color: 'black'}} to='https://docs.google.com/document/d/1trwySpB4SZ-oCpn0cX4sTsZ2Fgb8CDG5AGnaDo6Y-uM/edit?usp=sharing'>Resume</Link>
      </li> 
      <li className="navbar-item">
      <Link style={{color: 'black'}} to='/Contact' className={currentPage === '/Contact'}>Contact Me</Link>

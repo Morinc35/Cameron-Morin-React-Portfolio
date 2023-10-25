@@ -6,7 +6,6 @@ import './index.css'
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
-import Resume from './pages/Resume';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +13,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: '/About',
+        index: 'true',
         element: <About />,
       },
       {
@@ -24,10 +23,6 @@ const router = createBrowserRouter([
       {
         path: '/Contact',
         element: <Contact />,
-      },
-      {
-        path: '/Resume',
-        element: <Resume href='https://docs.google.com/document/d/1trwySpB4SZ-oCpn0cX4sTsZ2Fgb8CDG5AGnaDo6Y-uM/edit?usp=sharing'/>
       },
     ],
   },

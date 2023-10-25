@@ -16,28 +16,28 @@ return(
     link='https://github.com/Seanye333/Anime-Fusion'
     description='A full stack application allowing users to enjoy their favorite anime and view new ones.' />
     <Card 
-    image='src/assets/HomePage.PNG'
+    image='src/assets/Portfolio1.PNG'
     title='Team Three Movies'
-    link='https://kkurzawa.github.io/Movie-Project/'
-    description='A basic front-end only application for searching for your favorite movies'
+    link='https://github.com/Morinc35/Second-Challenge-Repo'
+    description='My first HTML and CSS project'
     />
     <Card 
-    image='src/assets/HomePage.PNG'
-    title='Team Three Movies'
-    link='https://kkurzawa.github.io/Movie-Project/'
-    description='A basic front-end only application for searching for your favorite movies'
+    image='src/assets/TEXTAPP.PNG'
+    title='JATE Text Editor'
+    link='https://github.com/Morinc35/PWA-Text-Editor'
+    description='A PWA text editor app'
     />
     <Card 
-    image='src/assets/HomePage.PNG'
-    title='Team Three Movies'
-    link='https://kkurzawa.github.io/Movie-Project/'
-    description='A basic front-end only application for searching for your favorite movies'
+    image='src/assets/ReadmeGenerator.PNG'
+    title='Read-Me Generator'
+    link='https://github.com/Morinc35/ReadMe-Generator'
+    description='A simple and easy ReadMe Generator'
     />
     <Card 
-    image='src/assets/HomePage.PNG'
-    title='Team Three Movies'
-    link='https://kkurzawa.github.io/Movie-Project/'
-    description='A basic front-end only application for searching for your favorite movies'
+    image='src/assets/WorkDay.PNG'
+    title='Todo List'
+    link='https://github.com/Morinc35/Fifth-Challenge-Repo'
+    description='Save items to your To-DO list!'
     />
     </main>
 )}
